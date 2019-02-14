@@ -3,7 +3,7 @@ node{
   git 'https://github.com/garima94sharma/Assignment'
   }
   stage('build'){
-  sh 'mvn package'
+  sh 'clean package'
   }
 
 }
